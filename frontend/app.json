@@ -20,7 +20,9 @@
         "backgroundColor": "#F4EFE6"
       },
       "edgeToEdgeEnabled": true,
-      "permissions": ["RECORD_AUDIO"]
+      "permissions": [
+        "RECORD_AUDIO"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -43,7 +45,8 @@
         {
           "microphonePermission": "Allow Bhasha Bridge to access your microphone to record speech for translation."
         }
-      ]
+      ],
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true
