@@ -1,0 +1,23 @@
+# Keep EAS uploads small and fast
+node_modules
+.expo
+.metro-cache
+dist
+web-build
+ios/build
+android/build
+android/app/build
+.vscode
+.idea
+
+# Backend & project meta (EAS only builds the frontend)
+../backend
+../tests
+../memory
+../test_reports
+../.emergent
+../README.md
+../test_result.md
+
+# Local env files (EAS uses eas.json env instead)
+.env.local

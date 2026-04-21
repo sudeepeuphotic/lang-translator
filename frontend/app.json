@@ -10,19 +10,19 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
+      "bundleIdentifier": "com.riti.bashabridge",
       "infoPlist": {
         "NSMicrophoneUsageDescription": "Record your voice to translate between languages"
       }
     },
     "android": {
+      "package": "com.riti.bashabridge",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#F4EFE6"
       },
       "edgeToEdgeEnabled": true,
-      "permissions": [
-        "RECORD_AUDIO"
-      ]
+      "permissions": ["RECORD_AUDIO"]
     },
     "web": {
       "bundler": "metro",
@@ -45,8 +45,7 @@
         {
           "microphonePermission": "Allow Bhasha Bridge to access your microphone to record speech for translation."
         }
-      ],
-      "expo-asset"
+      ]
     ],
     "experiments": {
       "typedRoutes": true
